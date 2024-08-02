@@ -22,7 +22,7 @@ body {
     font-family: 'font', sans-serif;
 }
 
-/* GLOBAL */
+/* GLOBAL-SETTINGS */
 
 .list-reset {
     margin: 0;
@@ -62,7 +62,7 @@ body {
     padding-bottom: 160px;
 }
 
-/* HEADER */
+/* HEADER-SECTION*/
 
 .header-container {
     align-items: center;
@@ -82,4 +82,40 @@ body {
 
 .header-list-item:last-child{
     margin-right: 0px;
+}
+
+/* SERVICES-SECTION */
+
+.services-title {
+    text-align: center;
+}
+
+.services-descr {
+    text-align: center;
+}
+
+.services-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 270px;
+    outline: 1px solid black;
+}
+
+.services-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.services-item-icon {
+    margin-bottom: 25px;
+}
+
+.services-item-title {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.services-item-descr {
+    margin: 0;
+    text-align: center;
 }
